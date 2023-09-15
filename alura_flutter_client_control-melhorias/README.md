@@ -71,3 +71,12 @@ Na nossa lista, nossos passos iniciais estavam em navegar entre telas no aplicat
 
 Utilizar o enterText() para adicionar um texto a um widget:
 Durante nossa jornada, nos deparamos com uma situação inédita: a necessidade de inserir texto em um TextFormField para dar continuidade ao nosso teste. Essa necessidade foi sanada com a utilização de um novo método presente no tester : o enterText() que necessita de duas coisas: 1) um finder; e 2) do texto que será inserido no widget encontrado.
+
+Produzir um teste que cria novos Clientes:
+Continuando nossos passos para construir um teste de ponta a ponta, desenvolvemos as ações para testar a criação de um novo cliente, dado que já havíamos criado um novo tipo no mesmo teste. Verificamos o comportamento do aplicativo em cada um dos passos e garantimos a funcionalidade do aplicativo!
+
+Identificar qual o finder ideal para situações de teste:
+Durante a produção dos testes, nos deparamos com um problema que é bem comum: O findernão encontra o widget corretamente. Isso pode ocorrer por diversos motivos, por conta da natureza do findere do próprio widget que está sendo buscado. Vimos a importância de saber mais de uma forma de identificar um widget na nossa árvore!
+
+Implementar um teste que verifica o Provider:
+Após criar os testes necessários para verificar a qualidade do aplicativo, decidimos testar a qualidade do gerenciamento de estados presente no projeto. No caso atual, o Provider foi o gerenciamento de estados escolhido, portanto, foi aplicado uma ação de teste para garantir que o Gerenciamento continue funcionando com qualidade.
