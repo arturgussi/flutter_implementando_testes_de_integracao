@@ -6,7 +6,9 @@ import 'models/client_type.dart';
 import 'models/types.dart';
 import 'pages/clients_page.dart';
 
-void main(List<String> list, {GlobalKey<State<StatefulWidget>>? providerKey}) {
+void main(
+    {List<String> list = const [],
+    GlobalKey<State<StatefulWidget>>? providerKey}) {
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider(create: (context) => Clients(clients: [])),
     ChangeNotifierProvider(

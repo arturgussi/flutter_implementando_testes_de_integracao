@@ -80,3 +80,15 @@ Durante a produção dos testes, nos deparamos com um problema que é bem comum:
 
 Implementar um teste que verifica o Provider:
 Após criar os testes necessários para verificar a qualidade do aplicativo, decidimos testar a qualidade do gerenciamento de estados presente no projeto. No caso atual, o Provider foi o gerenciamento de estados escolhido, portanto, foi aplicado uma ação de teste para garantir que o Gerenciamento continue funcionando com qualidade.
+
+Identificar pontos faltantes nos testes:
+Uma vez que concluímos nossos testes, cabe averiguar se não deixamos nada para trás, e se deixamos, qual a relevância dos testes não realizados.
+
+Conhecer a metodologia DDD:
+Começamos a explorar metodologias de desenvolvimento e como elas podem nos orientar enquanto criamos um aplicativo em Flutter. No caso do DDD (Domain Driven Design), vimos que ele é orientado ao Domínio, ou seja, é capaz de unir as informações e funcionamentos do projeto em uma única linguagem e dar mais atenção ao objetivo do produto.
+
+Entender a metodologia TDD:
+Continuando nossos estudos sobre desenvolvimento de softwares em Flutter, verificamos o TDD (Test Driven Development) que é orientado a testes e capaz de produzir aplicações e features sem diminuir a qualidade do projeto, focando em garantir a qualidade em primeiro lugar.
+
+Saber qual é a metodologia BDD:
+Finalizando nossos estudos sobre metodologias de desenvolvimento de softwares em Flutter, aprendemos sobre o BDD (Behavior Driven Development) que é um “evolução” do TDD, capaz de produzir aplicações seguindo uma orientação aos comportamentos do projeto, alinhadamente com os testes, focando em garantir a funcionalidade e a organização do código em primeiro lugar.
