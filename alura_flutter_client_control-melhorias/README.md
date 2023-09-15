@@ -59,3 +59,15 @@ Relembramos os conceitos de teste de Widget e criamos um teste para verificar um
 
 Aplicar testes de integração:
 Aprendemos um novo conceito e produzimos um teste de integração, capaz de verificar a dependência entre dois elementos distintos e ainda visualizar a ação ocorrendo em tempo real através do nosso emulador!
+
+Produzir um teste Manual:
+Vimos que o primeiro passo para produzir um teste automatizado de ponta a ponta é fazer um teste manual (na mão mesmo!) e verificar quais são os passos detalhados para percorrer o aplicativo de uma ponta a outra.
+
+Identificar os pontos necessários de testes:
+Ao produzir o teste manualmente, verificamos que existem pontos importantes a ser testados (navegação, inserção de textos em formulários), assim como detalhes que não precisam da nossa atenção (a cor do menu lateral, por exemplo). Com esse senso crítico, podemos identificar e selecionar quais os passos a seguir para produzir o teste automatizado.
+
+Testar a Navegação entre telas:
+Na nossa lista, nossos passos iniciais estavam em navegar entre telas no aplicativo! Por isso, ensinamos ao nosso tester como verificar se a navegação está sendo realizada com maestria, uma vez que, ao clicar no botão que redireciona a tela, os novos elementos (informações da nova tela) aparecerão.
+
+Utilizar o enterText() para adicionar um texto a um widget:
+Durante nossa jornada, nos deparamos com uma situação inédita: a necessidade de inserir texto em um TextFormField para dar continuidade ao nosso teste. Essa necessidade foi sanada com a utilização de um novo método presente no tester : o enterText() que necessita de duas coisas: 1) um finder; e 2) do texto que será inserido no widget encontrado.
